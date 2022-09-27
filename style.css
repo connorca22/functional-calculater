@@ -1,0 +1,87 @@
+html {
+  
+    min-height: 100%;
+    background: linear-gradient(35deg, #CCFFFF, #FFCCCC);
+    background-repeat:no-repeat;
+    background-size:cover;
+    }
+  
+  #calculater {
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  
+  #calc-container {
+    margin: 0 auto;
+    height: 38rem;
+    width: 26rem;
+    border: 1px solid black;
+    padding: 1em 0;
+    background: #292929;
+    display: inline-block;
+    text-align: center;
+    border-radius: 9px;
+    box-shadow: 0 4px 25px rgba(0,0,0,.54);
+  }
+  
+  .buttons {
+    text-align: center;
+    height: 24.8rem;
+    margin: 0.7rem;
+  }
+  
+  
+  .button {
+    height: 5.5rem;
+    width: 5.5rem;
+    display: inline-block;
+    border-radius: 50%;
+    font-size: 3em;
+    border: none;
+    outline: none;
+    margin-bottom: 0.5rem;
+  }
+  
+  .button:active {
+    border: 1px solid;
+  }
+  
+  .button-utility {
+    background-color: white;
+    color: black;
+  }
+  
+  .button-number {
+    background-color: black;
+    color: white;
+  }
+  
+  .button-operator, .equals {
+    background-color: orange;
+    color: white;
+  }
+  
+  
+  .screen {
+    margin: 0 auto;
+    height: 8rem;
+    width: 24rem;
+    border: 1px solid black;
+    border-radius: 15px;
+    font-size: 4.5em;
+    font-weight: bold;
+    text-align: right;
+  }
+  
+  .button[value='0'] {
+    height: 5.5rem;
+    width: 11rem;
+    border-radius: 40px;
+  }
+  
+  .button[value='AC'] {
+    height: 5.5rem;
+    width: 11rem;
+    border-radius: 40px;
+  }
